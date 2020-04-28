@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Street environment_V01.obj-04e4e1c3591d1ed6d7f94dd4de847a1a.mesh"
+
+[deps]
+
+files=[ "res://.import/Street environment_V01.obj-04e4e1c3591d1ed6d7f94dd4de847a1a.mesh" ]
+
+source_file="res://Models/roads/Street environment_V01.obj"
+dest_files=[ "res://.import/Street environment_V01.obj-04e4e1c3591d1ed6d7f94dd4de847a1a.mesh", "res://.import/Street environment_V01.obj-04e4e1c3591d1ed6d7f94dd4de847a1a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

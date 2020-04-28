@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/brije.obj-233828fc2290aea395f8b0eeddde3d7e.mesh"
+
+[deps]
+
+files=[ "res://.import/brije.obj-233828fc2290aea395f8b0eeddde3d7e.mesh" ]
+
+source_file="res://Models/roads/brije.obj"
+dest_files=[ "res://.import/brije.obj-233828fc2290aea395f8b0eeddde3d7e.mesh", "res://.import/brije.obj-233828fc2290aea395f8b0eeddde3d7e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

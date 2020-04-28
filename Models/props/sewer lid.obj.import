@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sewer lid.obj-600aefa519ae3d83ce8a40d5caac2c5e.mesh"
+
+[deps]
+
+files=[ "res://.import/sewer lid.obj-600aefa519ae3d83ce8a40d5caac2c5e.mesh" ]
+
+source_file="res://Models/props/sewer lid.obj"
+dest_files=[ "res://.import/sewer lid.obj-600aefa519ae3d83ce8a40d5caac2c5e.mesh", "res://.import/sewer lid.obj-600aefa519ae3d83ce8a40d5caac2c5e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

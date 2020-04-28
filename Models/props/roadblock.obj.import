@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadblock.obj-03b728a16e4b68a10e31c10e98866103.mesh"
+
+[deps]
+
+files=[ "res://.import/roadblock.obj-03b728a16e4b68a10e31c10e98866103.mesh" ]
+
+source_file="res://Models/props/roadblock.obj"
+dest_files=[ "res://.import/roadblock.obj-03b728a16e4b68a10e31c10e98866103.mesh", "res://.import/roadblock.obj-03b728a16e4b68a10e31c10e98866103.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

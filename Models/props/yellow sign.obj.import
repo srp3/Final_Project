@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/yellow sign.obj-34add6ad6a1d8cc2398cc4b996bb0750.mesh"
+
+[deps]
+
+files=[ "res://.import/yellow sign.obj-34add6ad6a1d8cc2398cc4b996bb0750.mesh" ]
+
+source_file="res://Models/props/yellow sign.obj"
+dest_files=[ "res://.import/yellow sign.obj-34add6ad6a1d8cc2398cc4b996bb0750.mesh", "res://.import/yellow sign.obj-34add6ad6a1d8cc2398cc4b996bb0750.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/concerete wall.obj-1f5eca2d823cf6b3bc0de3f62605b441.mesh"
+
+[deps]
+
+files=[ "res://.import/concerete wall.obj-1f5eca2d823cf6b3bc0de3f62605b441.mesh" ]
+
+source_file="res://Models/props/concerete wall.obj"
+dest_files=[ "res://.import/concerete wall.obj-1f5eca2d823cf6b3bc0de3f62605b441.mesh", "res://.import/concerete wall.obj-1f5eca2d823cf6b3bc0de3f62605b441.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

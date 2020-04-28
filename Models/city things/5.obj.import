@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/5.obj-5c30ec0efa5a161e14b5f2d09a85cc0e.mesh"
+
+[deps]
+
+files=[ "res://.import/5.obj-5c30ec0efa5a161e14b5f2d09a85cc0e.mesh" ]
+
+source_file="res://Models/city things/5.obj"
+dest_files=[ "res://.import/5.obj-5c30ec0efa5a161e14b5f2d09a85cc0e.mesh", "res://.import/5.obj-5c30ec0efa5a161e14b5f2d09a85cc0e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
