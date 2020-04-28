@@ -2,14 +2,14 @@
 
 importer="wavefront_obj"
 type="Mesh"
-path="res://.import/Coronavirus2_lowpoly.obj-b199c6c8e474749c288f4109446d8ba3.mesh"
+path="res://.import/Coronavirus2_lowpoly.obj-cea92287bbaf7c75e15e5a0c64ca4649.mesh"
 
 [deps]
 
-files=[ "res://.import/Coronavirus2_lowpoly.obj-b199c6c8e474749c288f4109446d8ba3.mesh" ]
+files=[ "res://.import/Coronavirus2_lowpoly.obj-cea92287bbaf7c75e15e5a0c64ca4649.mesh" ]
 
-source_file="res://Final_Test/Assets/Coronavirus2_lowpoly.obj"
-dest_files=[ "res://.import/Coronavirus2_lowpoly.obj-b199c6c8e474749c288f4109446d8ba3.mesh", "res://.import/Coronavirus2_lowpoly.obj-b199c6c8e474749c288f4109446d8ba3.mesh" ]
+source_file="res://Assets/Coronavirus2_lowpoly.obj"
+dest_files=[ "res://.import/Coronavirus2_lowpoly.obj-cea92287bbaf7c75e15e5a0c64ca4649.mesh", "res://.import/Coronavirus2_lowpoly.obj-cea92287bbaf7c75e15e5a0c64ca4649.mesh" ]
 
 [params]
 
