@@ -99,12 +99,13 @@ func take_damage (damage):
 		die()
 func die ():
 	
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://Control.tscn")
 	
 func add_score (amount):
 	
 	score += amount
 	ui.update_score_text(score)
+	
 	
 func add_health (amount):
 	
@@ -119,3 +120,7 @@ func add_ammo (amount):
 	
 	ammo += amount
 	ui.update_ammo_text(ammo)
+
+func win ():
+	if score == 200 :
+		get_tree().change_scene("res://Win.tscn")

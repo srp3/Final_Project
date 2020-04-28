@@ -4,6 +4,7 @@
 ### April 29, 2020
 
 ---
+In this short game, you shoot purple tic-tacs until they die! you move with the standard controls, and pick up health and ammo when they run out. 
 
 This game was developed as a final project for C220 as part of a 48-hour game jam. 
 
@@ -32,3 +33,5 @@ Future plans:
   * Member 4
     * Contributions
 
+
+The gun model was made by me in blender, while all other models are from kenny.nl 
