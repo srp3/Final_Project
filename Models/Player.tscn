@@ -7,13 +7,6 @@
 [ext_resource path="res://Final_Test/flamethrower.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Models/CORONA-master/Corona/coronavirus_normal.png" type="Texture" id=6]
 
-
-
-
-
-
-
-
 [sub_resource type="SpatialMaterial" id=1]
 params_diffuse_mode = 4
 params_specular_mode = 3
