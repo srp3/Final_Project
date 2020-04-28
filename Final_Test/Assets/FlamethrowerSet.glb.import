@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/FlamethrowerSet.glb-559adab8e7325ec60aae689728f1ade6.scn"
+path="res://.import/FlamethrowerSet.glb-1189d234266b52b22d4dbd89856d84ae.scn"
 
 [deps]
 
-source_file="res://Assets/FlamethrowerSet.glb"
-dest_files=[ "res://.import/FlamethrowerSet.glb-559adab8e7325ec60aae689728f1ade6.scn" ]
+source_file="res://Final_Test/Assets/FlamethrowerSet.glb"
+dest_files=[ "res://.import/FlamethrowerSet.glb-1189d234266b52b22d4dbd89856d84ae.scn" ]
 
 [params]
 
@@ -24,7 +24,6 @@ meshes/ensure_tangents=true
 meshes/storage=0
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.1
-skins/use_named_skins=true
 external_files/store_in_subdir=false
 animation/import=true
 animation/fps=15
