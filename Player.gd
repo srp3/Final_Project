@@ -37,13 +37,13 @@ func _physics_process(delta):
 	var input = Vector2()
 	
 	if Input.is_action_pressed("move_forward"):
-		input.y += 3
+		input.y += 5
 	if Input.is_action_pressed("move_backward"):
-		input.y -= 3
+		input.y -= 5
 	if Input.is_action_pressed("move_left"):
-		input.x += 3
+		input.x += 5
 	if Input.is_action_pressed("move_right"):
-		input.x -= 3
+		input.x -= 5
 		
 	input = input.normalized()
 	
