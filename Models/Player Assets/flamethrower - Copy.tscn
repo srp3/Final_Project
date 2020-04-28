@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/Dark Base_001.material" type="Material" id=1]
+[ext_resource path="res://Assets/Green Pseudo-metal.material" type="Material" id=2]
+[ext_resource path="res://Assets/Dark Base_002.material" type="Material" id=3]
+[ext_resource path="res://Assets/Dark Base.material" type="Material" id=4]
+[ext_resource path="res://Assets/Rough Steel.material" type="Material" id=5]
+[ext_resource path="res://Assets/flamethrower.dae" type="PackedScene" id=6]
+
+[node name="flamethrower" instance=ExtResource( 6 )]
+transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0 )
+
+[node name="Point" parent="." index="0"]
+transform = Transform( 2.89525, -0.648691, 1.51916, -1.61736, -0.489926, 2.87319, -0.335861, -3.23269, -0.740287, 0.0361444, 6.24224, 22.0224 )
+light_color = Color( 0.0980392, 0.988235, 0.882353, 1 )
+light_energy = 14.93
+light_indirect_energy = 13.56
+light_specular = 0.52
+omni_range = 1.1
+omni_attenuation = 0.870551
+
+[node name="Cube003" parent="." index="1"]
+material/0 = ExtResource( 4 )
+
+[node name="Cube002" parent="." index="2"]
+material/0 = ExtResource( 1 )
+
+[node name="Cylinder002" parent="." index="3"]
+material/0 = ExtResource( 2 )
+
+[node name="Cube001" parent="." index="4"]
+material/0 = ExtResource( 1 )
+
+[node name="Cylinder001" parent="." index="5"]
+material/0 = ExtResource( 3 )
+
+[node name="Torus002" parent="." index="6"]
+material/0 = ExtResource( 4 )
+
+[node name="Cone001" parent="." index="7"]
+material/0 = ExtResource( 4 )
+
+[node name="Torus001" parent="." index="8"]
+transform = Transform( 3.64417, 0, 0, 0, -7.96458e-07, -3.64417, 0, 18.2208, -1.59292e-07, 0, 3.03763, 0.353678 )
+material/0 = ExtResource( 2 )
+
+[node name="Torus" parent="." index="9"]
+material/0 = ExtResource( 5 )
+
+[node name="Cylinder" parent="." index="10"]
+material/0 = ExtResource( 5 )
+
+[node name="Cube" parent="." index="11"]
+material/0 = ExtResource( 4 )

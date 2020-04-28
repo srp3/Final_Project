@@ -17,7 +17,7 @@ var vel : Vector3 = Vector3()
 var mouseDelta : Vector2 = Vector2()
 
 onready var camera : Camera = get_node("Camera")
-onready var muzzle : Spatial = get_node("Camera/Muzzle")
+onready var muzzle : Spatial = get_node("flamethrower/Muzzle")
 onready var bulletScene = load("res://Bullet.tscn")
 onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
 

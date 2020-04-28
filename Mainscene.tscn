@@ -4,7 +4,7 @@
 [ext_resource path="res://Models/roads/Street environment_V01.obj" type="ArrayMesh" id=2]
 [ext_resource path="res://Models/dae/Low Poly Road Pack.dae" type="PackedScene" id=3]
 [ext_resource path="res://Models/city things/City1 Block 1.obj" type="ArrayMesh" id=4]
-[ext_resource path="res://Player.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Final_Test/Player.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Pickup_Health.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Pickup_Ammo.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Enemy.tscn" type="PackedScene" id=8]
@@ -1001,12 +1001,8 @@ script = ExtResource( 34 )
 
 [node name="UI" parent="CanvasLayer" instance=ExtResource( 9 )]
 
-[node name="DirectionalLight" type="DirectionalLight" parent="."]
-transform = Transform( 0.707107, -0.612373, 0.353553, 0, 0.5, 0.866025, -0.707107, -0.612372, 0.353553, 0.0328642, 10.1359, 0 )
-shadow_enabled = true
-
 [node name="Player" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0 )
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, -11.5147 )
 
 [node name="Environment" type="Node" parent="."]
 
