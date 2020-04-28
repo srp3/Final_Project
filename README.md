@@ -1,5 +1,5 @@
-# Project Name
-## by Group Name
+# Covid Escape
+## by No Braincells
 ### For BL-MSCH-C220 at Indiana University, Bloomington
 ### April 29, 2020
 
@@ -7,7 +7,7 @@
 
 This game was developed as a final project for C220 as part of a 48-hour game jam. 
 
-When we considered the theme of ____, we thought about it this way:
+When we considered the theme of Coronavirus, we thought about it this way:
 
 These are the struggles and surprises we encountered as we developed it:
 
@@ -23,10 +23,12 @@ Future plans:
 
 ###Team Members
 
-  * Member 1
+  * Chase Congdon
     * Contributions
-  * Member 2
+  * Aeres Meadows
     * Contributions
   * Member 3
+    * Contributions
+  * Member 4
     * Contributions
 
