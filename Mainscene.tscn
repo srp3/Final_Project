@@ -2739,6 +2739,7 @@ shape = SubResource( 292 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="Roads/StaticBody"]
 transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0.37696, 0 )
+visible = false
 shape = SubResource( 293 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Roads/StaticBody"]
