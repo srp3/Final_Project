@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Font/Ubuntu-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Control.gd" type="Script" id=2]
+[ext_resource path="res://Models/backgrounds/Intensivstation_(01)_2007-03-03 (1).jpg" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 87
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 26
+font_data = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1023.0
+margin_bottom = 597.0
+color = Color( 0.941176, 0.290196, 0.184314, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Intensivstation_(01)_2007-03-03 (1)" type="Sprite" parent="."]
+position = Vector2( 514.435, 290.979 )
+scale = Vector2( 0.542274, 0.542274 )
+texture = ExtResource( 3 )
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 237.0
+margin_top = 76.0
+margin_right = 791.0
+margin_bottom = 403.0
+color = Color( 0.160784, 0.101961, 0.101961, 0.54902 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 173.0
+margin_top = 105.0
+margin_right = 859.0
+margin_bottom = 266.0
+custom_fonts/font = SubResource( 1 )
+text = "You Died"
+align = 1
+
+[node name="Button" type="Button" parent="."]
+margin_left = 319.553
+margin_top = 298.025
+margin_right = 707.553
+margin_bottom = 346.025
+custom_fonts/font = SubResource( 2 )
+text = "Play Again?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
