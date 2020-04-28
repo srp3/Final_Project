@@ -1,4 +1,4 @@
-[gd_scene load_steps=266 format=2]
+[gd_scene load_steps=268 format=2]
 
 [ext_resource path="res://Models/Environment/Ground.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://Models/roads/Street environment_V01.obj" type="ArrayMesh" id=2]
@@ -35,6 +35,8 @@
 [ext_resource path="res://Models/props/sewer lid.obj" type="ArrayMesh" id=33]
 [ext_resource path="res://Models/props/red sign.obj" type="ArrayMesh" id=34]
 [ext_resource path="res://Models/props/paint can.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://Sound/EmSoundtrack (1).wav" type="AudioStream" id=36]
+[ext_resource path="res://Sound/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav" type="AudioStream" id=37]
 
 [sub_resource type="ConcavePolygonShape" id=1]
 data = PoolVector3Array( 0, 0, 0, 3, 0.3, 0, 3, 0, 0, 3, 0.3, 0, 0, 0, 0, 0, 0.3, 0, 0, 0.3, -3, 3, 0.3, 0, 0, 0.3, 0, 3, 0.3, 0, 0, 0.3, -3, 3, 0.3, -3, 3, 0, -3, 3, 0.3, 0, 3, 0.3, -3, 3, 0.3, 0, 3, 0, -3, 3, 0, 0, 3, 0, -3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, -3, 0, 0, -3, 0, 0.3, -3, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0.3, -3, 0, 0.3, 0, 3, 0, -3, 0, 0.3, -3, 0, 0, -3, 0, 0.3, -3, 3, 0, -3, 3, 0.3, -3 )
@@ -2531,3 +2533,10 @@ transform = Transform( -0.993958, 0, 0.109752, 0, 1, 0, -0.109752, 0, -0.993958,
 
 [node name="Pickup_Ammo13" parent="Pickups" instance=ExtResource( 7 )]
 transform = Transform( -0.993958, 0, 0.109752, 0, 1, 0, -0.109752, 0, -0.993958, 10.9526, 1.4702, -29.4955 )
+
+[node name="BG" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 36 )
+autoplay = true
+
+[node name="Gun" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 37 )
