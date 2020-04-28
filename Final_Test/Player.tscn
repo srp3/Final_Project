@@ -1,8 +1,6 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://.import/coronavirus_normal.png-f8f816e63c38c27ab9be579ce8e4466b.stex" type="Texture" id=1]
 [ext_resource path="res://.import/Coronavirus2_lowpoly.obj-cea92287bbaf7c75e15e5a0c64ca4649.mesh" type="ArrayMesh" id=2]
-[ext_resource path="res://.import/coronavirus diffuse.png-fdde205964ef18b33db3cf2a074d1935.stex" type="Texture" id=3]
 [ext_resource path="res://Player.gd" type="Script" id=4]
 [ext_resource path="res://flamethrower.tscn" type="PackedScene" id=5]
 
@@ -10,12 +8,10 @@
 params_diffuse_mode = 4
 params_specular_mode = 3
 albedo_color = Color( 0.984314, 0.596078, 0.886275, 1 )
-albedo_texture = ExtResource( 3 )
 metallic = 1.0
 roughness = 0.35
 normal_enabled = true
 normal_scale = 1.5
-normal_texture = ExtResource( 1 )
 rim_enabled = true
 rim = 0.57
 rim_tint = 0.34
