@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/concerete bench.obj-103857c7ae21a3faf34b3355ca75371c.mesh"
+
+[deps]
+
+files=[ "res://.import/concerete bench.obj-103857c7ae21a3faf34b3355ca75371c.mesh" ]
+
+source_file="res://Models/props/concerete bench.obj"
+dest_files=[ "res://.import/concerete bench.obj-103857c7ae21a3faf34b3355ca75371c.mesh", "res://.import/concerete bench.obj-103857c7ae21a3faf34b3355ca75371c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

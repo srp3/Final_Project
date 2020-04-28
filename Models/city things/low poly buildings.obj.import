@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/low poly buildings.obj-e2cbfae1305fc626416aef8b64b97a49.mesh"
+
+[deps]
+
+files=[ "res://.import/low poly buildings.obj-e2cbfae1305fc626416aef8b64b97a49.mesh" ]
+
+source_file="res://Models/city things/low poly buildings.obj"
+dest_files=[ "res://.import/low poly buildings.obj-e2cbfae1305fc626416aef8b64b97a49.mesh", "res://.import/low poly buildings.obj-e2cbfae1305fc626416aef8b64b97a49.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

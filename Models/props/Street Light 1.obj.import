@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Street Light 1.obj-c0279298d3e8a304592f055fbe89cbdb.mesh"
+
+[deps]
+
+files=[ "res://.import/Street Light 1.obj-c0279298d3e8a304592f055fbe89cbdb.mesh" ]
+
+source_file="res://Models/props/Street Light 1.obj"
+dest_files=[ "res://.import/Street Light 1.obj-c0279298d3e8a304592f055fbe89cbdb.mesh", "res://.import/Street Light 1.obj-c0279298d3e8a304592f055fbe89cbdb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

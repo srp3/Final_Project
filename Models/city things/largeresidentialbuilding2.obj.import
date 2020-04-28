@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/largeresidentialbuilding2.obj-cea34e0dac953049b6d274015ed97619.mesh"
+
+[deps]
+
+files=[ "res://.import/largeresidentialbuilding2.obj-cea34e0dac953049b6d274015ed97619.mesh" ]
+
+source_file="res://Models/city things/largeresidentialbuilding2.obj"
+dest_files=[ "res://.import/largeresidentialbuilding2.obj-cea34e0dac953049b6d274015ed97619.mesh", "res://.import/largeresidentialbuilding2.obj-cea34e0dac953049b6d274015ed97619.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
