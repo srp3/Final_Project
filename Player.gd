@@ -17,7 +17,7 @@ var vel : Vector3 = Vector3()
 var mouseDelta : Vector2 = Vector2()
 
 onready var camera : Camera = get_node("Camera")
-onready var muzzle : Spatial = get_node("Camera/Muzzle")
+onready var muzzle : Spatial = get_node("flamethrower/Muzzle")
 onready var bulletScene = load("res://Bullet.tscn")
 onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
 
@@ -99,12 +99,13 @@ func take_damage (damage):
 		die()
 func die ():
 	
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://Control.tscn")
 	
 func add_score (amount):
 	
 	score += amount
 	ui.update_score_text(score)
+	
 	
 func add_health (amount):
 	
@@ -119,3 +120,7 @@ func add_ammo (amount):
 	
 	ammo += amount
 	ui.update_ammo_text(ammo)
+
+func win ():
+	if score == 200 :
+		get_tree().change_scene("res://Win.tscn")

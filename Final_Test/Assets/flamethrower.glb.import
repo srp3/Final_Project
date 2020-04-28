@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/flamethrower.glb-67015113a73019973539df4f02d2e39c.scn"
+path="res://.import/flamethrower.glb-6ecc220ea17f45117788d8dd0683f5bd.scn"
 
 [deps]
 
-source_file="res://Assets/flamethrower.glb"
-dest_files=[ "res://.import/flamethrower.glb-67015113a73019973539df4f02d2e39c.scn" ]
+source_file="res://Final_Test/Assets/flamethrower.glb"
+dest_files=[ "res://.import/flamethrower.glb-6ecc220ea17f45117788d8dd0683f5bd.scn" ]
 
 [params]
 
