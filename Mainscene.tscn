@@ -1,6 +1,4 @@
-
-[gd_scene load_steps=265 format=2]
-
+[gd_scene load_steps=266 format=2]
 
 [ext_resource path="res://Models/Environment/Ground.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://Models/roads/Street environment_V01.obj" type="ArrayMesh" id=2]
@@ -37,7 +35,6 @@
 [ext_resource path="res://Models/props/sewer lid.obj" type="ArrayMesh" id=33]
 [ext_resource path="res://Models/props/red sign.obj" type="ArrayMesh" id=34]
 [ext_resource path="res://Models/props/paint can.obj" type="ArrayMesh" id=35]
-
 
 [sub_resource type="ConcavePolygonShape" id=1]
 data = PoolVector3Array( 0, 0, 0, 3, 0.3, 0, 3, 0, 0, 3, 0.3, 0, 0, 0, 0, 0, 0.3, 0, 0, 0.3, -3, 3, 0.3, 0, 0, 0.3, 0, 3, 0.3, 0, 0, 0.3, -3, 3, 0.3, -3, 3, 0, -3, 3, 0.3, 0, 3, 0.3, -3, 3, 0.3, 0, 3, 0, -3, 3, 0, 0, 3, 0, -3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, -3, 0, 0, -3, 0, 0.3, -3, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0.3, -3, 0, 0.3, 0, 3, 0, -3, 0, 0.3, -3, 0, 0, -3, 0, 0.3, -3, 3, 0, -3, 3, 0.3, -3 )
@@ -719,22 +716,6 @@ albedo_color = Color( 0.192157, 0.188235, 0.215686, 1 )
 [sub_resource type="SpatialMaterial" id=205]
 albedo_color = Color( 0.270588, 0.270588, 0.305882, 1 )
 
-
-[sub_resource type="SpatialMaterial" id=201]
-albedo_color = Color( 0.298039, 0.305882, 0.333333, 1 )
-
-[sub_resource type="SpatialMaterial" id=202]
-albedo_color = Color( 0.262745, 0.298039, 0.32549, 1 )
-
-[sub_resource type="SpatialMaterial" id=203]
-albedo_color = Color( 0.188235, 0.192157, 0.2, 1 )
-
-[sub_resource type="SpatialMaterial" id=204]
-albedo_color = Color( 0.239216, 0.243137, 0.258824, 1 )
-
-[sub_resource type="SpatialMaterial" id=205]
-albedo_color = Color( 0.239216, 0.243137, 0.266667, 1 )
-
 [sub_resource type="SpatialMaterial" id=206]
 albedo_color = Color( 0.286275, 0.290196, 0.301961, 1 )
 
@@ -808,7 +789,6 @@ albedo_color = Color( 0.231373, 0.243137, 0.27451, 1 )
 albedo_color = Color( 0.247059, 0.258824, 0.27451, 1 )
 
 [sub_resource type="SpatialMaterial" id=230]
-
 albedo_color = Color( 0.215686, 0.235294, 0.258824, 1 )
 
 [node name="Mainscene" type="Spatial"]
@@ -2232,80 +2212,59 @@ material/1 = SubResource( 203 )
 material/2 = SubResource( 204 )
 material/3 = SubResource( 205 )
 
-
 [node name="2" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -47.7591, 0, -66.9746 )
 mesh = ExtResource( 16 )
 material/0 = SubResource( 201 )
 
-
 [node name="3" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 60.0262, 0, -32.9003 )
 mesh = ExtResource( 21 )
-
 material/0 = SubResource( 202 )
-
 
 [node name="4" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41.7585, 0, -103.691 )
 mesh = ExtResource( 23 )
-
 material/0 = SubResource( 203 )
-
 
 [node name="5" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.6057, 0, -66.7424 )
 mesh = ExtResource( 20 )
-
 material/0 = SubResource( 204 )
-
 
 [node name="6" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 0, 0, -80.5847 )
 mesh = ExtResource( 18 )
-
 material/0 = SubResource( 205 )
-
 
 [node name="7" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 63.3384, 0, 28.0833 )
-
 mesh = ExtResource( 13 )
 material/0 = SubResource( 206 )
-
 
 [node name="8" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 40.4242, 0, 111.067 )
 mesh = ExtResource( 24 )
-
 material/0 = SubResource( 207 )
-
 
 [node name="9" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 27.2011, 0, 63.2969 )
 mesh = ExtResource( 19 )
-
 material/0 = SubResource( 208 )
-
 
 [node name="10" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19246e-08, 0.00691145, -0.999976, -8.24182e-11, 0.999976, 0.00691145, 1, 6.93889e-18, 1.19249e-08, -59.8343, 0, 27.832 )
 mesh = ExtResource( 14 )
-
 material/0 = SubResource( 209 )
-
 
 [node name="11" type="MeshInstance" parent="Buildings"]
 transform = Transform( -2.1856e-08, 0.00345572, -0.499988, -4.12091e-11, 0.499988, 0.00345572, 0.5, 1.92265e-10, -2.18552e-08, 32.4148, 0, -101.671 )
 mesh = ExtResource( 22 )
-
 material/0 = SubResource( 210 )
-
 
 [node name="12" type="MeshInstance" parent="Buildings"]
 transform = Transform( 1.19246e-08, 0.00691145, -0.999976, -8.24182e-11, 0.999976, 0.00691145, 1, -5.79026e-24, 1.19249e-08, 18.6981, 0, -59.1934 )
 mesh = ExtResource( 15 )
-
 material/0 = SubResource( 211 )
 
 [node name="13" type="MeshInstance" parent="Buildings"]
@@ -2417,34 +2376,25 @@ material/27 = null
 material/28 = null
 material/29 = null
 
-
 [node name="untitled" type="MeshInstance" parent="Roads"]
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 119.7, -5, 0 )
 mesh = ExtResource( 12 )
-
 material/0 = SubResource( 227 )
-
 
 [node name="untitled2" type="MeshInstance" parent="Roads"]
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -129.383, -5, 0 )
 mesh = ExtResource( 12 )
-
 material/0 = SubResource( 228 )
-
 
 [node name="untitled3" type="MeshInstance" parent="Roads"]
 transform = Transform( -8.14603e-07, 0, 5, 0, 5, 0, -5, 0, -8.14603e-07, 0.218719, -5, 129.099 )
 mesh = ExtResource( 12 )
-
 material/0 = SubResource( 229 )
-
 
 [node name="untitled4" type="MeshInstance" parent="Roads"]
 transform = Transform( -8.14603e-07, 0, 5, 0, 5, 0, -5, 0, -8.14603e-07, 0.725224, -5, -118.523 )
 mesh = ExtResource( 12 )
-
 material/0 = SubResource( 230 )
-
 
 [node name="Enemies" type="Node" parent="."]
 
@@ -2461,16 +2411,16 @@ transform = Transform( -0.306227, 0, 0.951958, 0, 1, 0, -0.951958, 0, -0.306227,
 transform = Transform( -0.92274, 0, -0.385423, 0, 1, 0, 0.385423, 0, -0.92274, 2.0576, 3.36487, 24.2561 )
 
 [node name="Enemy20" parent="Enemies" instance=ExtResource( 8 )]
-transform = Transform( 0.869184, 0, 0.494488, 0, 1, 0, -0.494488, 0, 0.869184, -19.359, 0.340024, 10.1566 )
+transform = Transform( 0.869184, 0, 0.494488, 0, 1, 0, -0.494488, 0, 0.869184, -19.359, 2.05037, 10.1566 )
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource( 8 )]
-transform = Transform( 0.687467, 0, 0.726215, 0, 1, 0, -0.726215, 0, 0.687467, -22.9481, 0.086309, 4.90914 )
+transform = Transform( 0.687467, 0, 0.726215, 0, 1, 0, -0.726215, 0, 0.687467, -22.9481, 2.6486, 4.90914 )
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 8 )]
-transform = Transform( 0.687467, 0, 0.726215, 0, 1, 0, -0.726215, 0, 0.687467, -16.9292, 0.340024, -1.64859 )
+transform = Transform( 0.687467, 0, 0.726215, 0, 1, 0, -0.726215, 0, 0.687467, -16.9292, 2.38129, -1.64859 )
 
 [node name="Enemy17" parent="Enemies" instance=ExtResource( 8 )]
-transform = Transform( -0.781608, 0, 0.62377, 0, 1, 0, -0.62377, 0, -0.781608, -11.1133, 0.340024, 9.89344 )
+transform = Transform( -0.781608, 0, 0.62377, 0, 1, 0, -0.62377, 0, -0.781608, -11.1133, 2.64992, 9.89344 )
 
 [node name="Enemy8" parent="Enemies" instance=ExtResource( 8 )]
 transform = Transform( 0.996549, 0, -0.0829996, 0, 1, 0, 0.0829996, 0, 0.996549, -33.0602, 2.85299, -3.09377 )
