@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/leisure_video_game_retro_8bit_power_up_002.wav-3ad1614ddc5fa2fb24f3ee8e66f1a5a4.sample"
+
+[deps]
+
+source_file="res://leisure_video_game_retro_8bit_power_up_002.wav"
+dest_files=[ "res://.import/leisure_video_game_retro_8bit_power_up_002.wav-3ad1614ddc5fa2fb24f3ee8e66f1a5a4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
