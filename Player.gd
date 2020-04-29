@@ -5,9 +5,9 @@ var maxHp : int = 10
 var ammo : int = 15
 var score: int = 0
 
-var moveSpeed : float = 5.0
+var moveSpeed : float = 20.0
 var jumpForce : float = 5.0
-var gravity : float = 12.0
+var gravity : float = 10.0
 
 var minLookAngle : float = -90.0
 var maxLookAngle : float = 90.0
@@ -17,13 +17,15 @@ var vel : Vector3 = Vector3()
 var mouseDelta : Vector2 = Vector2()
 
 onready var camera : Camera = get_node("Camera")
-onready var muzzle : Spatial = get_node("flamethrower/Muzzle")
+
+onready var muzzle : Spatial = get_node("Camera/flamethrower/Muzzle")
+
 onready var bulletScene = load("res://Bullet.tscn")
 onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
 onready var gun: Node = get_node("/root/Mainscene/Gun")
 
 func _ready ():
-	
+
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
 	ui.update_health_bar(curHp, maxHp)
@@ -69,6 +71,9 @@ func _process(delta):
 	camera.rotation_degrees.x = clamp(camera.rotation_degrees.x, minLookAngle, maxLookAngle)
 	rotation_degrees.y -= mouseDelta.x * lookSensitivity * delta
 	
+	if score == 200 :
+		get_tree().change_scene("res://Win.tscn")
+		
 	mouseDelta = Vector2()
 	
 	if Input.is_action_just_pressed("shoot") and ammo > 0:
@@ -83,7 +88,7 @@ func shoot ():
 	gun.playing = true
 	var bullet = bulletScene.instance()
 	get_node("/root/Mainscene").add_child(bullet)
-	
+
 	bullet.global_transform = muzzle.global_transform
 	
 	ammo -= 1
