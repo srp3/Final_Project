@@ -141,70 +141,58 @@ transform = Transform( 0.6654, 0, -0.746487, 0, 1, 0, 0.746487, 0, 0.6654, 21.23
 [node name="Pickups" type="Node" parent="."]
 
 [node name="Pickup_Health" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( 0.241871, 0, -0.970308, 0, 1, 0, 0.970308, 0, 0.241871, 0, 2.0738, 13.6896 )
+transform = Transform( 0.726766, 0, -0.686884, 0, 1, 0, 0.686884, 0, 0.726766, 6.2735, 2.0738, 13.6896 )
 
 [node name="Pickup_Health2" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( -0.321159, 0, -0.947025, 0, 1, 0, 0.947025, 0, -0.321159, -3.71241, 2.0738, 12.6755 )
+transform = Transform( -0.676773, 0, -0.736191, 0, 1, 0, 0.736191, 0, -0.676773, -34.8778, 2.0738, 7.78291 )
 
 [node name="Pickup_Health3" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( -0.82808, 0, -0.56061, 0, 1, 0, 0.56061, 0, -0.82808, -6.03126, 2.0738, 10.6098 )
+transform = Transform( -0.915578, 0, -0.402139, 0, 1, 0, 0.402139, 0, -0.915578, -11.8264, 2.0738, 19.9297 )
 
 [node name="Pickup_Health6" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( 0.958656, 0, 0.284568, 0, 1, 0, -0.284568, 0, 0.958656, 23.0334, 2.0738, -0.731422 )
+transform = Transform( 0.82601, 0, 0.563656, 0, 1, 0, -0.563656, 0, 0.82601, 7.43694, 2.0738, -40.992 )
 
 [node name="Pickup_Health5" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( 0.960308, 0, -0.278941, 0, 1, 0, 0.278941, 0, 0.960308, 22.1845, 2.0738, 3.02222 )
+transform = Transform( 0.661914, 0, -0.74958, 0, 1, 0, 0.74958, 0, 0.661914, 22.1845, 2.0738, 5.70587 )
 
 [node name="Pickup_Health4" parent="Pickups" instance=ExtResource( 6 )]
-transform = Transform( 0.596701, 0, -0.802464, 0, 1, 0, 0.802464, 0, 0.596701, 20.2235, 2.0738, 5.4302 )
+transform = Transform( 0.857679, 0, -0.514186, 0, 1, 0, 0.514186, 0, 0.857679, 41.4932, 2.0738, 5.4302 )
 
 [node name="Pickup_Ammo" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( 0.627012, 0, -0.77901, 0, 1, 0, 0.77901, 0, 0.627012, 10.3999, 1.4702, -5.37337 )
+transform = Transform( 0.627012, 0, -0.77901, 0, 1, 0, 0.77901, 0, 0.627012, -14.2096, 1.43646, -17.5091 )
 
 [node name="Pickup_Ammo2" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( 0.859397, 0, -0.511308, 0, 1, 0, 0.511308, 0, 0.859397, -5.4667, 1.4702, -4.32911 )
+transform = Transform( 0.918261, 0.00474153, 0.395945, -0.00503519, 0.999987, -0.000297645, -0.395942, -0.00172034, 0.918274, -24.0771, 1.4702, -3.36279 )
 
 [node name="Pickup_Ammo3" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( 0.859397, 0, -0.511308, 0, 1, 0, 0.511308, 0, 0.859397, -10.776, 1.4702, 0.249496 )
+transform = Transform( 0.999987, 0, 0.00495657, 0, 1, 0, -0.00495657, 0, 0.999987, -13.3128, 1.4702, 15.6755 )
 
 [node name="Pickup_Ammo6" parent="Pickups" instance=ExtResource( 7 )]
 transform = Transform( 0.191392, 0, -0.981514, 0, 1, 0, 0.981514, 0, 0.191392, 8.77692, 1.4702, -14.0444 )
 
-[node name="Pickup_Ammo5" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( 0.521798, 0, -0.853068, 0, 1, 0, 0.853068, 0, 0.521798, -5.74585, 1.4702, -20.5197 )
-
-[node name="Pickup_Ammo4" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( 0.521798, 0, -0.853068, 0, 1, 0, 0.853068, 0, 0.521798, -12.5776, 1.4702, -18.9452 )
-
 [node name="Pickup_Ammo12" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.848963, 0, -0.528453, 0, 1, 0, 0.528453, 0, -0.848963, -10.8668, 1.4702, 19.5253 )
+transform = Transform( -0.736876, 0, 0.676028, 0, 1, 0, -0.676028, 0, -0.736876, -4.37291, 1.4702, 27.8032 )
 
 [node name="Pickup_Ammo11" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.611251, 0, -0.791436, 0, 1, 0, 0.791436, 0, -0.611251, -9.98929, 1.4702, 3.64856 )
+transform = Transform( -0.0670408, 0, -0.99775, 0, 1, 0, 0.99775, 0, -0.0670408, -16.7944, 1.01435, 10.1114 )
 
 [node name="Pickup_Ammo10" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.611251, 0, -0.791436, 0, 1, 0, 0.791436, 0, -0.611251, -13.8939, 1.4702, -2.17432 )
+transform = Transform( -0.611251, 0, -0.791436, 0, 1, 0, 0.791436, 0, -0.611251, -13.1657, 1.4702, -22.2542 )
 
 [node name="Pickup_Ammo9" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.997435, 0, -0.0715849, 0, 1, 0, 0.0715849, 0, -0.997435, -2.06329, 1.4702, 18.9602 )
+transform = Transform( -0.803317, 0, -0.595553, 0, 1, 0, 0.595553, 0, -0.803317, -2.06329, 1.4702, 28.1181 )
 
 [node name="Pickup_Ammo8" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.909787, 0, -0.415073, 0, 1, 0, 0.415073, 0, -0.909787, 6.11673, 1.4702, 5.32467 )
+transform = Transform( -0.974853, 0, 0.222843, 0, 1, 0, -0.222843, 0, -0.974853, 9.11503, 1.4702, 27.1796 )
 
 [node name="Pickup_Ammo7" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.909787, 0, -0.415073, 0, 1, 0, 0.415073, 0, -0.909787, 5.37791, 1.4702, -1.64713 )
+transform = Transform( -0.0611714, 0, -0.998126, 0, 1, 0, 0.998126, 0, -0.0611714, 20.0209, 1.4702, 9.7445 )
 
 [node name="Pickup_Ammo18" parent="Pickups" instance=ExtResource( 7 )]
 transform = Transform( -0.999824, 0, -0.0187786, 0, 1, 0, 0.0187786, 0, -0.999824, -13.8464, 1.4702, -19.6381 )
 
-[node name="Pickup_Ammo17" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.930449, 0, -0.36642, 0, 1, 0, 0.36642, 0, -0.930449, -4.95733, 1.4702, -32.8223 )
-
 [node name="Pickup_Ammo16" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.930449, 0, -0.36642, 0, 1, 0, 0.36642, 0, -0.930449, -5.32665, 1.4702, -39.8235 )
-
-[node name="Pickup_Ammo15" parent="Pickups" instance=ExtResource( 7 )]
-transform = Transform( -0.893215, 0, 0.449631, 0, 1, 0, -0.449631, 0, -0.893215, -5.99694, 1.4702, -15.6122 )
+transform = Transform( -0.753253, 0, -0.65773, 0, 1, 0, 0.65773, 0, -0.753253, -12.202, 1.40097, -39.8235 )
 
 [node name="Pickup_Ammo14" parent="Pickups" instance=ExtResource( 7 )]
 transform = Transform( -0.993958, 0, 0.109752, 0, 1, 0, -0.109752, 0, -0.993958, 8.01463, 1.4702, -23.13 )
