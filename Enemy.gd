@@ -11,6 +11,8 @@ var scoreToGive : int = 10
 
 onready var player : Node = get_node("/root/Mainscene/Player")
 onready var timer : Timer = get_node("Timer")
+onready var squelch = get_node("/root/Mainscene/Impact")
+onready var dies
 
 func _ready():
 	timer.set_wait_time(attackRate)
