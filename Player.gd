@@ -23,6 +23,7 @@ onready var muzzle : Spatial = get_node("Camera/flamethrower/Muzzle")
 onready var bulletScene = load("res://Bullet.tscn")
 onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
 onready var gun: Node = get_node("/root/Mainscene/Gun")
+onready var walk = get_node("/root/Mainscene/Footsteps")
 
 func _ready ():
 
@@ -80,7 +81,6 @@ func _process(delta):
 		shoot()
 		
 func _input(event):
-	
 	if event is InputEventMouseMotion:
 		mouseDelta = event.relative
 
