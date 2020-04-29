@@ -8,6 +8,7 @@ enum PickupType {
 export(PickupType) var type = PickupType.Health
 export var amount : int = 10
 
+onready var item = get_node("/root/Mainscene/Items")
 onready var startYPos : float = translation.y
 var bobHeight : float = 1.0
 var bobSpeed : float = 1.0
@@ -29,7 +30,7 @@ func _on_Pickup_body_entered(body):
 		queue_free()
 
 func pickup (player):
-	
+	item.playing = true
 	if type == PickupType.Health:
 		player.add_health(amount)
 	elif type == PickupType.Ammo:

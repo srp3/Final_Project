@@ -1,4 +1,4 @@
-[gd_scene load_steps=270 format=2]
+[gd_scene load_steps=271 format=2]
 
 [ext_resource path="res://Models/Environment/Ground.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://Models/roads/Street environment_V01.obj" type="ArrayMesh" id=2]
@@ -39,6 +39,7 @@
 [ext_resource path="res://Sound/zapsplat_horror_gore_impact_thud_bone_break_squelch_001_43679.wav" type="AudioStream" id=37]
 [ext_resource path="res://Sound/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav" type="AudioStream" id=38]
 [ext_resource path="res://Sound/zapsplat_horror_monster_creature_single_snarl_grunt_growl_nasal_005_48619.wav" type="AudioStream" id=39]
+[ext_resource path="res://Sound/leisure_video_game_retro_8bit_power_up_002.wav" type="AudioStream" id=40]
 
 [sub_resource type="ConcavePolygonShape" id=1]
 data = PoolVector3Array( 0, 0, 0, 3, 0.3, 0, 3, 0, 0, 3, 0.3, 0, 0, 0, 0, 0, 0.3, 0, 0, 0.3, -3, 3, 0.3, 0, 0, 0.3, 0, 3, 0.3, 0, 0, 0.3, -3, 3, 0.3, -3, 3, 0, -3, 3, 0.3, 0, 3, 0.3, -3, 3, 0.3, 0, 3, 0, -3, 3, 0, 0, 3, 0, -3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, -3, 0, 0, -3, 0, 0.3, -3, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0.3, -3, 0, 0.3, 0, 3, 0, -3, 0, 0.3, -3, 0, 0, -3, 0, 0.3, -3, 3, 0, -3, 3, 0.3, -3 )
@@ -2538,16 +2539,21 @@ transform = Transform( -0.993958, 0, 0.109752, 0, 1, 0, -0.109752, 0, -0.993958,
 
 [node name="BG" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 36 )
+volume_db = -12.65
 autoplay = true
 
 [node name="Gun" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 38 )
+volume_db = -16.155
 
 [node name="Impact" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 37 )
+volume_db = -9.321
 
 [node name="Die" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 39 )
+volume_db = -11.107
 
 [node name="Items" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 38 )
+stream = ExtResource( 40 )
+volume_db = -22.214

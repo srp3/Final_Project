@@ -26,12 +26,10 @@ func _physics_process(delta):
 		move_and_slide(dir * moveSpeed, Vector3.UP)
 
 func take_damage (damage):
-	
+	squelch.playing = true	
 	health -= damage
-	if damage:
-		squelch.playing = true
 	if health <= 0:
-		die()
+		die()	
 
 func die ():
 	diefx.playing = true
