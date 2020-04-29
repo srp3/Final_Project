@@ -12,7 +12,7 @@ var scoreToGive : int = 10
 onready var player : Node = get_node("/root/Mainscene/Player")
 onready var timer : Timer = get_node("Timer")
 onready var squelch = get_node("/root/Mainscene/Impact")
-onready var dies
+onready var diefx = get_node("/root/Mainscene/Die")
 
 func _ready():
 	timer.set_wait_time(attackRate)
@@ -28,12 +28,13 @@ func _physics_process(delta):
 func take_damage (damage):
 	
 	health -= damage
-	
+	if damage:
+		squelch.playing = true
 	if health <= 0:
 		die()
 
 func die ():
-	
+	diefx.playing = true
 	player.add_score(scoreToGive)
 	queue_free()
 
