@@ -1,0 +1,228 @@
+[gd_scene format=2]
+
+[node name="Streetlights" type="Node"]
+
+[node name="SpotLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 23.6345, 14.2291, 0 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840897
+
+[node name="SpotLight3" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 39.7844, 14.2291, 0 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight6" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 54.9567, 14.2291, 0.540441 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight2" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 23.6345, 14.2291, -8.14156 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight4" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 39.9546, 14.2291, -7.75334 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight5" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 54.9257, 14.2291, -7.70986 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight7" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.04876, 14.552, 29.2473 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight8" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.538786, 14.2781, 29.4717 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight9" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.538786, 14.2781, 45.6844 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight10" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.4664, 14.2217, 45.5483 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight11" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.4664, 14.2217, 60.5335 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight12" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.760573, 14.2217, 60.5335 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight13" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.760573, 14.2217, 76.7273 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight14" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.48875, 14.2217, 76.7273 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight15" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -25.5207, 14.4255, 0.734183 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight16" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -25.5207, 14.4255, -7.22674 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight17" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -41.6452, 14.4255, -7.22674 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight18" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -41.6452, 14.4255, 0.568631 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight19" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -56.8508, 14.4255, 0.568631 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight20" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -56.485, 14.4255, -7.70608 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight21" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -72.757, 14.4255, -7.70608 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840897
+
+[node name="SpotLight22" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -72.757, 14.4255, -0.400804 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight23" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.10904, 14.4255, -28.083 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight24" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.945698, 14.4255, -28.2354 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight25" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.945698, 14.4255, -44.3726 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight26" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.34929, 14.4255, -44.3726 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight27" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, -7.34929, 14.4255, -59.2138 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+spot_range = 15.0
+spot_attenuation = 0.840896
+
+[node name="SpotLight28" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0.804425, 14.4255, -59.2138 )
+light_color = Color( 0.996078, 0.666667, 0.486275, 1 )
+light_energy = 13.0
+light_indirect_energy = 8.0
+shadow_contact = 3.96
+spot_range = 15.0
+spot_attenuation = 0.840896
