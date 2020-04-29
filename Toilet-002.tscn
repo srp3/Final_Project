@@ -8,5 +8,10 @@ roughness = 0.31
 
 [node name="Toilet-002" instance=ExtResource( 1 )]
 
+[node name="Lamp" parent="." index="1"]
+transform = Transform( -0.290865, -0.771101, 0.566393, -0.0551891, 0.604525, 0.794672, -0.955171, 0.199883, -0.218391, 3.26044, 6.78633, -0.89163 )
+light_energy = 10.98
+light_indirect_energy = 16.0
+
 [node name="Toilet" parent="." index="2"]
 material/0 = SubResource( 1 )
