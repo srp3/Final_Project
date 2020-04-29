@@ -6,8 +6,10 @@ var moveSpeed : float = 2.0
 var damage : int = 1
 var attackRate : float = 1.0
 var attackDist : float = 2.0
+var gravity : float = 10.0
 
 var scoreToGive : int = 10
+var vel : Vector3 = Vector3()
 
 onready var player : Node = get_node("/root/Mainscene/Player")
 onready var timer : Timer = get_node("Timer")
@@ -21,6 +23,7 @@ func _ready():
 func _physics_process(delta):
 	var dir = (player.translation - translation).normalized()
 	dir.y = 0
+	vel.y -= gravity * delta
 	
 	if translation.distance_to(player.translation) > attackDist:
 		move_and_slide(dir * moveSpeed, Vector3.UP)

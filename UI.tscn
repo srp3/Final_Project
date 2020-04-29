@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Font/Ubuntu-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://UI/UI_Square.png" type="Texture" id=2]
 [ext_resource path="res://UI.gd" type="Script" id=3]
+[ext_resource path="res://UI/Crosshair.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 30
@@ -62,3 +63,7 @@ text = "Score: 500"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Crosshair" type="Sprite" parent="."]
+position = Vector2( 500, 300 )
+texture = ExtResource( 4 )
