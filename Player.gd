@@ -22,6 +22,7 @@ onready var muzzle : Spatial = get_node("Camera/flamethrower/Muzzle")
 
 onready var bulletScene = load("res://Bullet.tscn")
 onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
+onready var gun: Node = get_node("/root/Mainscene/Gun")
 
 func _ready ():
 	
@@ -81,7 +82,7 @@ func _input(event):
 		mouseDelta = event.relative
 
 func shoot ():
-	
+	gun.playing = true
 	var bullet = bulletScene.instance()
 	get_node("/root/Mainscene").add_child(bullet)
 	

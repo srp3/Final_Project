@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav-73f5216cd74197d52a5ef2b2181fc564.sample"
+
+[deps]
+
+source_file="res://Sound/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav"
+dest_files=[ "res://.import/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav-73f5216cd74197d52a5ef2b2181fc564.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_horror_monster_creature_single_snarl_grunt_growl_nasal_005_48619.wav-bbb060235bf068e4c9e6d5856f5676cc.sample"
+
+[deps]
+
+source_file="res://Sound/zapsplat_horror_monster_creature_single_snarl_grunt_growl_nasal_005_48619.wav"
+dest_files=[ "res://.import/zapsplat_horror_monster_creature_single_snarl_grunt_growl_nasal_005_48619.wav-bbb060235bf068e4c9e6d5856f5676cc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
