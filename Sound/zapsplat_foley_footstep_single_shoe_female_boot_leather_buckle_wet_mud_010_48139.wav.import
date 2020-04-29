@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_foley_footstep_single_shoe_female_boot_leather_buckle_wet_mud_010_48139.wav-fa027c4693389b8b9e0b13f14ed1a6c7.sample"
+
+[deps]
+
+source_file="res://Sound/zapsplat_foley_footstep_single_shoe_female_boot_leather_buckle_wet_mud_010_48139.wav"
+dest_files=[ "res://.import/zapsplat_foley_footstep_single_shoe_female_boot_leather_buckle_wet_mud_010_48139.wav-fa027c4693389b8b9e0b13f14ed1a6c7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

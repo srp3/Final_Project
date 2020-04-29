@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/coronavirus diffuse.png-fdde205964ef18b33db3cf2a074d1935.s3tc.stex"
-path.etc2="res://.import/coronavirus diffuse.png-fdde205964ef18b33db3cf2a074d1935.etc2.stex"
+path.s3tc="res://.import/coronavirus diffuse.png-ee164c2dc294afe8c686ed757d5580df.s3tc.stex"
+path.etc2="res://.import/coronavirus diffuse.png-ee164c2dc294afe8c686ed757d5580df.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/coronavirus diffuse.png"
-dest_files=[ "res://.import/coronavirus diffuse.png-fdde205964ef18b33db3cf2a074d1935.s3tc.stex", "res://.import/coronavirus diffuse.png-fdde205964ef18b33db3cf2a074d1935.etc2.stex" ]
+source_file="res://Final_Test/Assets/coronavirus diffuse.png"
+dest_files=[ "res://.import/coronavirus diffuse.png-ee164c2dc294afe8c686ed757d5580df.s3tc.stex", "res://.import/coronavirus diffuse.png-ee164c2dc294afe8c686ed757d5580df.etc2.stex" ]
 
 [params]
 

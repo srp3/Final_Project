@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Coronavirus_Lowpoly.obj-ead9e0a879bce58adac769a2bce60ee0.mesh"
+
+[deps]
+
+files=[ "res://.import/Coronavirus_Lowpoly.obj-ead9e0a879bce58adac769a2bce60ee0.mesh" ]
+
+source_file="res://Models/Player Assets/Assets - Copy/Coronavirus_Lowpoly.obj"
+dest_files=[ "res://.import/Coronavirus_Lowpoly.obj-ead9e0a879bce58adac769a2bce60ee0.mesh", "res://.import/Coronavirus_Lowpoly.obj-ead9e0a879bce58adac769a2bce60ee0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
