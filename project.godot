@@ -15,9 +15,10 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Template"
+config/name="Covid Escape"
+config/description="Use our patented Sanitzing Gun for all your Corona outbreak needs! Now with 70% more bullet!"
 run/main_scene="res://Mainscene.tscn"
-config/icon="res://icon.png"
+config/icon="res://ScreenShot.png"
 
 [input]
 
