@@ -9,7 +9,10 @@
 [ext_resource path="res://Enemy.tscn" type="PackedScene" id=8]
 [ext_resource path="res://UI.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Models/props/red sign.obj" type="ArrayMesh" id=34]
-[ext_resource path="res://Sound/EmSoundtrack (1).wav" type="AudioStream" id=36]
+
+[ext_resource path="res://Models/props/paint can.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://coronajam.wav" type="AudioStream" id=36]
+
 [ext_resource path="res://Sound/zapsplat_horror_gore_impact_thud_bone_break_squelch_001_43679.wav" type="AudioStream" id=37]
 [ext_resource path="res://Sound/pm_sfg_vol1_weapon_47_3_gun_gunshot_futuristic_365.wav" type="AudioStream" id=38]
 [ext_resource path="res://Sound/zapsplat_horror_monster_creature_single_snarl_grunt_growl_nasal_005_48619.wav" type="AudioStream" id=39]
