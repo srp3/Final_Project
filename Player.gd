@@ -25,7 +25,7 @@ onready var ui : Node = get_node("/root/Mainscene/CanvasLayer/UI")
 onready var gun: Node = get_node("/root/Mainscene/Gun")
 
 func _ready ():
-	
+
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
 	ui.update_health_bar(curHp, maxHp)
@@ -71,6 +71,9 @@ func _process(delta):
 	camera.rotation_degrees.x = clamp(camera.rotation_degrees.x, minLookAngle, maxLookAngle)
 	rotation_degrees.y -= mouseDelta.x * lookSensitivity * delta
 	
+	if score == 200 :
+		get_tree().change_scene("res://Win.tscn")
+		
 	mouseDelta = Vector2()
 	
 	if Input.is_action_just_pressed("shoot") and ammo > 0:
@@ -85,7 +88,7 @@ func shoot ():
 	gun.playing = true
 	var bullet = bulletScene.instance()
 	get_node("/root/Mainscene").add_child(bullet)
-	
+
 	bullet.global_transform = muzzle.global_transform
 	
 	ammo -= 1
