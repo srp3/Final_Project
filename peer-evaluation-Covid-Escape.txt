@@ -1,0 +1,43 @@
+Name: Thomas McHugh
+Date:4/30/2020
+
+Project: Corona Escape
+Group's repository: https://github.com/shermy99/Final_Project
+
+
+
+What is something you learned by reviewing this group's project?
+How to design power ups
+
+In what ways does this game reflect the theme?
+Running away from a virus outbreak
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+Power up design, which I have yet to fully design and understand
+
+What suggestions would you have for this group to improve the game?
+Add more levels to increase the playability of the game. I would also make a flashlight or similar effect
+as it took a while to find the virus in the very dark environment once I had ample ammunition.
+The virus and bullets could also be faster to give the player a better sense that they are in danger.
+Finally, the number of enemies clutters the space in the edit window. The group could have applied the node
+child method we used and made enemies a scene to remove said clutter. Same goes for the pickups.
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+Coding was easy to understand
+
+Is it clear that every group member participated?
+Yes
+
+Does the repository contain an appropriate LICENSE?
+Only one person is listed on the license
+
+What is something the group could add to the README.md to make it more descriptive?
+Maybe add in more descriptive words in place of the swearing
+ 
+
+Pay a compliment to the group based on the quality of the game.
+I like the amount of features that are added that we didn't dicuss in as much length about during class.
+
+How many of your points would you allocate to this project?
+2.5
+
