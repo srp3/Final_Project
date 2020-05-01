@@ -7,7 +7,7 @@ Group's repository: https://github.com/shermy99/Final_Project
 
 
 What is something you learned by reviewing this group's project?
-    3D models can have a lot of details and make the environment much more complicated than 2D.
+    3D models can have a lot of details and make the environment much more complicated than 2D. 
  
 
 In what ways does this game reflect the theme?
