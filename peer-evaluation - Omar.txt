@@ -2,7 +2,7 @@ Name:Omar Mohammed
 Date:5/1/2020
 
 Project: Covid Escape
-Group's repository: 
+Group's repository: https://github.com/shermy99/Final_Project
 
 
 What is something you learned by reviewing this group's project?
@@ -61,3 +61,4 @@ than that bullet issue. Nothing was buggy, great job!
 How many of your points would you allocate to this project?
 
 
+2.5 (sorry I got two great projects so I am just splitting the points 50/50)
